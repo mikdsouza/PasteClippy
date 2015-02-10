@@ -1,2 +1,2 @@
 # PasteClippy
-Clipboard 
+Clipboard management software
