@@ -16,7 +16,14 @@ namespace PasteClippy
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run();
+            
+            using(ProcessIcon pi = new ProcessIcon())
+            {
+                pi.Display();
+
+                Application.Run();
+            }
+
         }
     }
 }
